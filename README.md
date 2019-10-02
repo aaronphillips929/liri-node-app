@@ -3,7 +3,7 @@ Language Interpretation and Recognition Interface for Spotify, Bands in Town, an
 Purpose: To look up songs, movies, and concerts via the command line
 
 ![alt text](https://i.imgur.com/gHismx7.jpg)
-(http://www.giphy.com/gifs/Zcd7Wz851ynrfdFau4)
+![alt text](https://media.giphy.com/media/Zcd7Wz851ynrfdFau4/giphy.gif)
 
 Instructions: type "node liri.js 'movie-this/concert-this/spotify-this-song' and the name of the 'movie/artist/song' you want to look up
 
