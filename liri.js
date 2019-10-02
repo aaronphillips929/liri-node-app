@@ -7,7 +7,7 @@ var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var operand = process.argv[2];
 var input = process.argv[3];
-​
+
 if (operand === "movie-this"){
     movieThis(input);
 } else if (operand === "concert-this"){
@@ -17,7 +17,6 @@ if (operand === "movie-this"){
 } else if (operand === "do-what-it-says"){
     doThis(input)
 }
-​
 function movieThis(movie) {
     axios
         .get("http://www.omdbapi.com/?t="+movie+"&y=&plot=short&apikey=trilogy")
@@ -46,7 +45,7 @@ function movieThis(movie) {
             console.log(error.config);
         });
 }
-​
+
 function concertThis(artist) {
     axios
         .get("https://rest.bandsintown.com/artists/"+artist+"/events?app_id=codingbootcamp")
@@ -72,7 +71,7 @@ function concertThis(artist) {
             console.log(error.config);
         });
 }
-​
+
 function spotifyThis(song) {
     spotify
         .search({ type: 'track', query:song })
@@ -86,11 +85,11 @@ function spotifyThis(song) {
           console.log(err);
         });
 }
-​
+
 function doThis () {
     fs 
         .readFile("random.txt", "utf8", function(error, data) {
-​
+
         if (error) {
           return console.log(error);
         }
