@@ -1,6 +1,7 @@
 # liri-node-app
-Language Interpretation and Recognition Interface for Spotify, Bands in Town, and OMDB
-Purpose: To look up songs, movies, and concerts via the command line
+Language Interpretation and Recognition Interface for Spotify, Bands in Town, and OMDB.
+
+Purpose: Look up songs, movies, and concerts via the command line
 
 ![alt text](https://i.imgur.com/gHismx7.jpg)
 ![alt text](https://media.giphy.com/media/Zcd7Wz851ynrfdFau4/giphy.gif)
