@@ -100,6 +100,9 @@ function doThis () {
         var dataArr = data.split(",");
       
         console.log(dataArr);
+        process.argv[2] = dataArr[0];
+           song = dataArr[1];
+           spotifyThis(song);
       
       });
 }
