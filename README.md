@@ -7,6 +7,7 @@ Look up songs, movies, and concerts via the command line
 **GIF**
 
 ![alt text](https://media.giphy.com/media/Zcd7Wz851ynrfdFau4/giphy.gif)
+
 **Screenshot**
 
 ![alt text](https://i.imgur.com/gHismx7.jpg)
