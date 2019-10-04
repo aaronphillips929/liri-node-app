@@ -10,7 +10,7 @@ Look up songs, movies, and concerts via the command line
 
 **Screenshot**
 
-![alt text](https://imgur.com/vjT4ecm)
+![alt text](https://i.imgur.com/vjT4ecm.jpg)
 
 **Instructions:** 
 Type "node liri.js 'movie-this/concert-this/spotify-this-song' and the name of the 'movie/artist/song' you want to look up
