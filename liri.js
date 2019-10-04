@@ -15,7 +15,7 @@ if (operator === "movie-this"){
 } else if (operator === "spotify-this-song"){
     spotifyThis(input);
 } else if (operator === "do-what-it-says"){
-    doThis(input)
+    doWhat(input)
 }
 
 function concertThis(artist) {
@@ -87,7 +87,7 @@ function movieThis(movie) {
         });
 }
 
-function doThis () {
+function doWhat () {
     fs 
         .readFile("random.txt", "utf8", function(error, data) {
 
