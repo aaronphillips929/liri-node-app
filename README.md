@@ -6,17 +6,17 @@ Look up songs, movies, and concerts via the command line
 
 **GIF**
 
-![alt text](https://media.giphy.com/media/U5Cxvz5G5MSJZplTeo/giphy.gif)
+![alt text](https://media.giphy.com/media/ZCkoJDOLrAcJZn2VPS/giphy.gif)
 
 **Screenshot**
 
-![alt text](https://i.imgur.com/vjT4ecm.jpg)
+![alt text](https://i.imgur.com/DPvCW0v.jpg)
 
 **Instructions:** 
-Open Termincal/Git Bash.  To look up songs, type "node liri.js spotify-this-song (song name)" and LIRI will look up the song on Spotify.  To look up movies, type "node liri.js movie-this (movie name)" and LIRI will look up that movie on OMDB.  To look up concerts, type "node liri.js concert-this (artist name)" and LIRI will look up upcoming concerts from that artist on Bands in Town.  
+Open Terminal/Git Bash.  Type "node bamazonCustomer.js" on the command line to view items in the store.  You will be prompted to enter the ID of the item you want to buy.  Then, you will be prompted to enter the quantity that you want to buy.  If the item is in stock, the purchase is complete and the inventory updates.  If the item is not in stock, you won't be able to purchase the item.  
 
 **Technologies:** 
-Node.js, Axios, API's
+Node.js, MySQL Database, Inquirer.js
 
 **Developer:** 
 Aaron Phillips
